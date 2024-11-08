@@ -1,0 +1,104 @@
+/* global styles */
+body {
+    background-color: #9cd9cb;
+}
+img {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+}
+#container {
+    background-color: #D9D9D9;
+}
+/* Mobile Styles */
+@media (min-width: 320px){
+    nav {
+        background-color: #D9D9D9;
+        padding: 5px;
+        margin-top: 10px;
+        text-align: center;
+    }
+    nav ul {
+        list-style-type: none;
+        padding: 0;
+    }
+    nav li {
+        display: block;
+    }
+    nav li a {
+        display: block;
+        height: 30px;
+        background-color: #273240;
+        color: #9CD9C8;
+        font-size: 24px;
+        text-decoration: none;
+        margin-top: 5px;
+        line-height: 30px;
+    }
+    nav li a :hover {
+        background-color: #273240;
+    }
+}
+main {
+    padding: 20px
+}
+h1, h2, h3 {
+    text-align: center;
+    color: #273240;
+    text-shadow: 2px 2px 2px #9cd9cb;
+}
+footer {
+    text-align: center;
+    padding: 40px;
+    color: #273240;
+    text-shadow: 2px 2px 2px #9cd9cb;
+}
+/* Tablet Styles*/
+@media (min-width: 768px){
+    nav li {
+        display:inline-block;
+    }
+    nav li a {
+        width: 150px;
+        height: 50px;
+        line-height: 50px;
+        margin: 5px;
+    }
+    .yeti_pic{
+        width: 50%;
+        border-radius: 10px;
+        box-shadow: 5px 5px 5px #273240;
+    }
+    .yeti_pic2 {
+        width: 50%;
+        border-radius: 10px;
+        box-shadow: 5px 5px 5px #273240;}
+}
+/* Desktop Styles*/
+@media (min-width: 1024px){
+    #container {
+        width: 65%;
+        margin: 20px auto;
+        border: 4px solid black;
+        border-radius: 20px;
+        
+    }
+    nav {
+        padding: 0;
+    }
+    
+    hr {
+        display: none;
+    }
+    #multi_col {
+        display: flex;
+    }
+    .col {
+        margin: 10px;
+        padding: 10px;
+        border: 2px solid black;
+    }
+    .yeti_pic2 {
+        width: 80%;
+    }
+}
