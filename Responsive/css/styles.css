@@ -9,6 +9,11 @@ img {
 }
 #container {
     background-color: #D9D9D9;
+
+#contact {
+    text-align: center;
+}
+
 }
 /* Mobile Styles */
 @media (min-width: 320px){
@@ -38,6 +43,10 @@ img {
     nav li a :hover {
         background-color: #273240;
     }
+    .yeti_pic{
+        width: 50%;
+        border-radius: 10px;
+        box-shadow: 5px 5px 5px #273240;
 }
 main {
     padding: 20px
@@ -101,4 +110,5 @@ footer {
     .yeti_pic2 {
         width: 80%;
     }
+}
 }
