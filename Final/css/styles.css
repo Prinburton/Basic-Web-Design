@@ -12,6 +12,9 @@ img {
     background-color: #7e7c7c;
       }
      
+      #main_home {
+        display: block;
+    }
 /* Mobile Styles */
 @media (min-width: 320px){
     nav {
@@ -56,9 +59,7 @@ main {
     text-align: center;
     
 }
-#main_home {
-    display: block;
-}
+
 h1, h2, h3 {
     text-align: center;
     color: #00419F;
